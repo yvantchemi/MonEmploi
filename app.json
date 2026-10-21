@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "MonEmploi",
+    "slug": "monemploi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.monemploi.education"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1E3A8A",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.monemploi.education"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-sharing",
+      "expo-font"
+    ],
+    "scheme": "monemploi",
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
